@@ -1,6 +1,6 @@
 import json
-import psycopg2
-
+import psyco
+'''merge'''
 f = open("unique_data.txt", "r")
 data=json.load(f)
 count=0
